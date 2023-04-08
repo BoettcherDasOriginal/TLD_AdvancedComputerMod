@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TLD_AdvancedComputerMod", "TLD_AdvancedComputerMod\TLD_AdvancedComputerMod.csproj", "{ACD2A526-5C57-4387-96C9-C6E1116583CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACD2A526-5C57-4387-96C9-C6E1116583CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD2A526-5C57-4387-96C9-C6E1116583CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD2A526-5C57-4387-96C9-C6E1116583CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD2A526-5C57-4387-96C9-C6E1116583CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAFAA6F4-46C5-4948-B470-6460E6BBA471}
+	EndGlobalSection
+EndGlobal
