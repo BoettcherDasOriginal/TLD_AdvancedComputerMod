@@ -26,6 +26,7 @@ namespace TLD_AdvancedComputerMod
                 if (!mainscript.ModEvents.Contains(modEvent))
                 {
                     mainscript.ModEvents.Add(modEvent);
+                    ACM_ComputerMain.acm_init();
                 }
             }
         }
