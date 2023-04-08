@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TLDLoader;
-using UnityEngine;
 
 namespace TLD_AdvancedComputerMod
 {
@@ -18,7 +17,7 @@ namespace TLD_AdvancedComputerMod
 
         public override string Name => "Advanced Computer";
 
-        mainscript.ModEvent modEvent = onComputerEvent;
+        mainscript.ModEvent modEvent = onComputerHitEnterWithCommand;
 
         public override void Update()
         {
@@ -29,28 +28,26 @@ namespace TLD_AdvancedComputerMod
                     mainscript.ModEvents.Add(modEvent);
                 }
             }
-
-            foreach(ACM_ComputerKernal kernal in ACM_ComputerKernal.kernals)
-            {
-                kernal.updateScreenText();
-                UnityEngine.Debug.LogError((object)$"update Screen on Cmp Name:{kernal.cmp.name}");
-            }
         }
 
-        public static void onComputerEvent(object sender,string eventType)
+        public static void onComputerHitEnterWithCommand(object sender, string eventType)
         {
-            if(eventType.Contains(":"))
+            if (eventType.Contains(':'))
             {
-                string[] eventName = eventType.Split(':');
+                string[] eventTypeName = eventType.Split(':');
 
-                if (eventName[0].Equals("ComputerHitEnterWithCommand"))
+                if (eventTypeName[0].Equals("ComputerHitEnterWithCommand"))
+                {
+                    computerscript computerscript = (computerscript)sender;
+
+                    ACM_ComputerMain.handleComputerInput(computerscript,eventTypeName[1]);
+                }
+
+                if (eventType.Equals("ComputerPostWrite:?Syntax  Error"))
                 {
                     computerscript cmp = (computerscript)sender;
-                    if (ACM_ComputerKernal.getKernalFromCmp(cmp) == null && eventName[1].Equals("acm"))
-                    {
-                        Debug.Log("Starting acm os...");
-                        ACM_ComputerKernal.activateACMOs(cmp);
-                    }
+
+                    if(ACM_ComputerMain.waitForSyntaxError.Contains(cmp)) ACM_ComputerMain.removeSyntaxError(cmp);
                 }
             }
         }
