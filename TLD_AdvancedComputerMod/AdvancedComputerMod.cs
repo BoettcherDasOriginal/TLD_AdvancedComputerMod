@@ -11,7 +11,7 @@ namespace TLD_AdvancedComputerMod
     {
         public override string ID => nameof(AdvancedComputerMod);
 
-        public override string Version => "0.0.1";
+        public override string Version => "1.0.0";
 
         public override string Author => "leonarudo";
 

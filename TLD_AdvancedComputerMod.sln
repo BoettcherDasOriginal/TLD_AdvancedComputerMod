@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TLD_AdvancedComputerMod", "TLD_AdvancedComputerMod\TLD_AdvancedComputerMod.csproj", "{ACD2A526-5C57-4387-96C9-C6E1116583CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACM_TestPlugin", "ACM_TestPlugin\ACM_TestPlugin.csproj", "{B083EA5F-B72A-4395-ABAE-6EE883588075}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{ACD2A526-5C57-4387-96C9-C6E1116583CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACD2A526-5C57-4387-96C9-C6E1116583CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACD2A526-5C57-4387-96C9-C6E1116583CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B083EA5F-B72A-4395-ABAE-6EE883588075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B083EA5F-B72A-4395-ABAE-6EE883588075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B083EA5F-B72A-4395-ABAE-6EE883588075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B083EA5F-B72A-4395-ABAE-6EE883588075}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
