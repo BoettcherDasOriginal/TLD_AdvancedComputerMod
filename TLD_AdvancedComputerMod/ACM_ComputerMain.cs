@@ -32,6 +32,8 @@ namespace TLD_AdvancedComputerMod
                 //extra
                 new ACM_BuildingFinder_cmd()
             };
+
+            ACM_PluginLoader.loadPlugins();
         }
 
         public static void handleComputerInput(computerscript cmp, string computerInput)

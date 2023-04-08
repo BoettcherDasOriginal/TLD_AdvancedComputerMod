@@ -56,5 +56,7 @@ namespace TLD_AdvancedComputerMod.ACM_OS
             //End
             ACM_ComputerMain.waitForSyntaxError.Add(cmp);
         }
+
+        public ACM_ICommand() { }
     }
 }

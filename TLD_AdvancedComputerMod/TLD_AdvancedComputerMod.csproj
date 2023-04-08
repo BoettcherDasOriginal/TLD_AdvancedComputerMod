@@ -145,6 +145,7 @@
     <Compile Include="ACM_ComputerMain.cs" />
     <Compile Include="ACM_OS\ACMConsole.cs" />
     <Compile Include="ACM_OS\ACM_ICommand.cs" />
+    <Compile Include="ACM_PluginLoader.cs" />
     <Compile Include="AdvancedComputerMod.cs" />
     <Compile Include="Commands\ACM_BuildingFinder_cmd.cs" />
     <Compile Include="Commands\ACM_default_cmd.cs" />
