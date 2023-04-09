@@ -9,4 +9,10 @@ The Advanced Computer Mod is a small mod that extends the computer (the c64) wit
 The functions currently include a few calculation functions and a radar that shows the distance and direction to the next building.
 The API, on the other hand, makes it possible for other modders to simply add further functions to the computer or to use the C64 for their mod.
 
+## Getting Started
+- [Mod Installation](https://github.com/BoettcherDasOriginal/TLD_AdvancedComputerMod)
+- [API Documentation](https://github.com/BoettcherDasOriginal/TLD_AdvancedComputerMod)
+
+## Screenshots
+
 <img src=".img/1.png" width="60%" height="auto">
