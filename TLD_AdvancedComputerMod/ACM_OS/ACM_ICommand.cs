@@ -39,7 +39,7 @@ namespace TLD_AdvancedComputerMod.ACM_OS
         public abstract computerscript cmp { get; set; }
 
         /// <summary>
-        /// ACMConsole Instance (Read to use, linked with the current sender(cmp))
+        /// ACMConsole Instance (Ready to use, linked with the current sender(cmp))
         /// </summary>
         public abstract ACMConsole console { get; set; }
 
