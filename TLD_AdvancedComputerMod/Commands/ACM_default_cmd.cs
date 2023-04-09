@@ -32,7 +32,7 @@ namespace TLD_AdvancedComputerMod.Commands
             {
                 if(command.Name != "") 
                 {
-                    console.WriteLine(command.Name + " => " + command.Description);
+                    console.WriteLine(command.Name + " -> " + command.Description);
                 }
             }
         }

@@ -30,7 +30,8 @@ namespace TLD_AdvancedComputerMod
                 new ACM_Sqrt_cmd(),
 
                 //extra
-                new ACM_BuildingFinder_cmd()
+                new ACM_BuildingFinder_cmd(),
+                new ACM_Radar_cmd()
             };
 
             ACM_PluginLoader.loadPlugins();
